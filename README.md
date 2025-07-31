@@ -1,106 +1,130 @@
-⚛️ React Component IDE
-A modern, minimal, and lightning-fast React playground where you can write, preview, and experiment with React components in real-time.
 
-🚀 Live Demo: https://react-ide-kappa.vercel.app/
+# ⚛️ React Component IDE
 
-✨ What is this?
-This project is a clean and distraction-free React IDE designed for developers who want to build and preview React components with ease. It offers a live coding environment, responsive design preview, and an elegant UI — all wrapped into a single tool.
+**React Component IDE** is a sleek, fast, and developer-friendly playground built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**. It allows users to write JSX and CSS with live preview functionality, making it ideal for prototyping, learning, and experimenting with React components in real-time. The editor features syntax highlighting, auto-save, fullscreen mode, responsive preview options, and one-click export capabilities—all wrapped in a clean, modern UI. Built with care by **Aniket Pratap Singh**, this open-source project is free to use under the MIT License and can be hosted on platforms like Vercel, Netlify, GitHub Pages, or any static hosting service.
 
-Whether you're prototyping, learning, or just testing out some JSX, this tool has you covered.
+---
 
-🛠️ Features
-⚡ Live Preview: Instantly see the result of your JSX and CSS
+## 🚀 Live Demo
 
-🧠 Smart Code Editor: Supports JSX + CSS with syntax highlighting
+[https://react-ide-kappa.vercel.app](https://react-ide-kappa.vercel.app)
 
-📱 Responsive Design Testing: Preview your components at multiple screen sizes
+---
 
-🎬 Fullscreen Mode: Toggle fullscreen for distraction-free component testing
+## 🛠 Features
 
-💾 Auto-save: Your edits are saved automatically
+- ⚡ Live Preview (JSX + CSS)
+- 🧠 Smart Code Editor with Syntax Highlighting
+- 📱 Responsive Preview Modes
+- 🎬 Fullscreen Mode
+- 💾 Auto-save Functionality
+- ⬇️ Export Component Code
+- 🎨 Modern UI with Tailwind CSS and shadcn/ui
+- 🌓 Light/Dark Mode Toggle
 
-⬇️ Export Components: Download your components in one click
+---
 
-🎨 Modern UI: Built with Tailwind CSS and shadcn/ui for clean aesthetics
+## 📁 Project Structure
 
-🚀 Getting Started
-Follow these steps to get the project up and running locally:
+```
+src/
+├── components/             # Reusable UI and logic components
+│   ├── CodeEditor.tsx         # JSX and CSS code editor
+│   ├── ComponentPreview.tsx   # Live preview area
+│   └── ui/                    # UI components from shadcn/ui
+├── pages/                  # Route-level pages
+└── hooks/                  # Custom React hooks
+```
 
-bash
-Copy
-Edit
-git clone <your-repo-url>
-cd ai-react-canvas
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/Aniket-1100/react-ide
+cd react-ide
 npm install
 npm run dev
-Then open your browser and navigate to:
-📍 http://localhost:5173
+```
 
-📁 Project Structure
-graphql
-Copy
-Edit
-src/
-├── components/           # Reusable UI and logic components
-│   ├── CodeEditor.tsx       # JSX and CSS code editor
-│   ├── ComponentPreview.tsx # Live preview area
-│   └── ui/                  # UI components from shadcn/ui
-├── pages/                # Route-level pages
-└── hooks/                # Custom React hooks
-💡 How to Use
-Write JSX + CSS directly in the editor
+Then open your browser at: [http://localhost:5173](http://localhost:5173)
 
-Watch your component render live in the preview panel
+---
 
-Click "New Component" to start from a fresh template
+## 🧪 Usage
 
-Click "Clear" to reset your workspace
+- Write JSX and CSS directly in the editor
+- Instantly preview your component live
+- Click "New Component" to start fresh
+- Use "Clear" to reset your workspace
+- Click "Save" to log your current code
+- Toggle fullscreen for distraction-free design
 
-Click "Save" to log your code in the console (for now)
+---
 
-Click "Fullscreen" to focus on your design
+## 🧩 Tech Stack
 
-🌐 Deployment
-✅ Hosted on Vercel
-This project is already deployed and live:
-🔗 https://react-ide-kappa.vercel.app
+**Client:** React 18, TypeScript, TailwindCSS, shadcn/ui, Vite
 
-Other Hosting Options
-Feel free to host it anywhere you prefer:
+**Server:** None (Client-side application)
 
-Netlify
+---
 
-GitHub Pages
+## 📦 Deployment
 
-Firebase Hosting
+The project is live on Vercel: [react-ide-kappa.vercel.app](https://react-ide-kappa.vercel.app)
 
-AWS S3 + CloudFront
+To deploy manually:
 
-Or any static hosting platform
+```bash
+npm run build
+```
 
-🧩 Tech Stack
-React 18 – Component-based UI development
+Then upload the `dist/` folder to any static hosting provider like:
 
-TypeScript – Strongly typed development
+- Vercel
+- Netlify
+- GitHub Pages
+- Firebase Hosting
+- AWS S3 + CloudFront
 
-Vite – Blazing fast dev/build tool
+---
 
-Tailwind CSS – Utility-first styling
+## 🧠 Lessons Learned
 
-shadcn/ui – Beautiful and composable UI components
+Building this IDE taught the importance of efficient code preview rendering, responsive UI testing, and managing live editor state with optimal performance. Integrating shadcn/ui made styling more productive and visually appealing.
 
-🤝 Contributing
-Love this project and want to improve it? Here's how you can help:
+---
 
-Fork this repo 🍴
+## 🙌 Contributing
 
-Create a new branch (git checkout -b feature-name)
+Contributions are always welcome! Feel free to fork this repo, create a feature branch, make your changes, and submit a pull request.
 
-Make your changes ✨
+Please adhere to this project's code of conduct.
 
-Submit a pull request 📬
+---
 
-📜 License
-This project is licensed under the MIT License — free to use, modify, and share. Build your next great idea with it!
+## 📜 License
 
-Made with ❤️ by Aniket Pratap Singh
+[MIT License](https://choosealicense.com/licenses/mit/) — Free to use, modify, and distribute.
+
+---
+
+## 🔗 Links
+
+- [My GitHub](https://github.com/Aniket-1100)
+- [Live Site](https://react-ide-kappa.vercel.app)
+
+---
+
+## 👨‍💻 About Me
+
+Hi, I'm **Aniket Pratap Singh**, a full-stack developer passionate about building clean UIs, scalable web apps, and powerful developer tools. You can find more of my work on my GitHub profile.
+
+---
+
+## 📬 Feedback
+
+If you have any suggestions, ideas, or bugs to report, feel free to open an issue or contact me via GitHub.
